@@ -45,7 +45,24 @@ object placa {
 	method material(){return cobre}
 	method peso() { return peso }
 	method peso(pesoNuevo) { peso = pesoNuevo }
-	method color(coloNuevo){ color = colorNuevo}
+	method color(colorNuevo){ color = colorNuevo}
 }
 
+object banquito {
+	var color =naranja 
+	
+	method peso()= {return 1700}
+	method mateial()= {return madera}
+	method color() = {return color }
+	method color(unColor) {
+		color = unColor 
+	}
+}
+
+object cajita {
+	var objetoQueContiene
+	
+	
+	}
+}
 

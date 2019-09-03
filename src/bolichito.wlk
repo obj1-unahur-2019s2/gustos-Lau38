@@ -28,4 +28,8 @@ object bolichito {
 	method puedeOfrecerleAlgoA(persona) {
 		// completar
 	}
+	
+	method puedeMejorar(){
+		return self.esMonocromatico() or self.estaDesequilibrado()
+	}
 }
